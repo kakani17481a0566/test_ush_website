@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(245, 245, 245); /* Light background */
+    color: rgb(66, 66, 66); /* Dark text color */
+}
+
+.navbar {
+    background-color: rgb(72, 207, 203); /* Navbar background */
+}
+
+.navbar a {
+    color: rgb(66, 66, 66); /* Navbar text color */
+}
+
+.navbar a:hover {
+    color: rgb(34, 151, 153); /* Navbar hover color */
+}
+
+header {
+    background-color: rgb(34, 151, 153); /* Hero section background */
+}
+
+.service-card {
+    background-color: white; /* Service card background */
+    border: 1px solid rgb(72, 207, 203); /* Card border color */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.btn-light {
+    background-color: rgb(72, 207, 203); /* Button background */
+    color: white; /* Button text color */
+}
+
+.btn-light:hover {
+    background-color: rgb(34, 151, 153); /* Button hover color */
+    color: white; /* Button text color on hover */
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
